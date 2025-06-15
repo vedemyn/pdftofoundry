@@ -22,9 +22,9 @@
         }
     },
     "compatibility": {
-        "minimum": "12",
-        "verified": "12.330",
-        "maximum": "12"
+        "minimum": "13",
+        "verified": "13.345",
+        "maximum": "13"
     },
     "relationships": {
         "systems": [
