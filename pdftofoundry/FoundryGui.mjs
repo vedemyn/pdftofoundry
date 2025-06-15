@@ -30,8 +30,3 @@ ${tokens.map(x=>`    ${x},
 `).join("")}]`:""}`.split(`
 `).map(x=>`    ${x}`).join(`
 `);console.log("PDFToFoundry | Data copied to clipboard"),copyToClipboard(output);const id=scene.background.src.split("\\").pop().split("/").pop().split(".").shift();ui.notifications.info(`Copied journal/token information for ${scene.name} (${id}) to clipboard`)}__name(extractJournals,"extractJournals"),__name2(extractJournals,"extractJournals"),new PdfImporter;export{ModuleData as M,getAdventureModule as a,getAllAdventureModules as g,mkdirFoundry as m,sleep as s,tokenArtDb as t,uploadToFoundry as u};
-
-        const importButton = $(
-          '<div><button type="button"><i class="fas fa-fire"></i> PDF Importer</button></div>'
-        );
-        game.user.isGM && html.find("section.pf2e").appendChild(importButton),
